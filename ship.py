@@ -12,7 +12,7 @@ class Ship:
 
         # Load the ship image and get its rect.
         self.image = pygame.image.load(
-            'alien_invasion/images/Spaceship_tut.bmp'
+            './images/Spaceship_tut.bmp'
         )
         self.rect = self.image.get_rect()
 
